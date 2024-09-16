@@ -4,9 +4,14 @@ password = prompt("Enter password.");
 logIn();
 
 function logIn (username, password){
-    if (username == "admin" || password == "secret" ) {
+    if (username = "admin") {
+        if (password = "secret") {
         displayStr = "Welcome Admin!";
         console.log(displayStr);
+        } else {
+            displayStrBad = "BAD LOGIN CREDIENTIALS";
+            console.log(displayStrBad);
+        }
     
     }
     else {
